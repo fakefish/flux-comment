@@ -7,10 +7,8 @@ var App = React.createClass({
 
   render: function() {
     return (
-      <div>
-        <Comments />
-        <CommentForm />
-      </div>
+      <Comments />
+      <CommentForm />
     );
   }
 });

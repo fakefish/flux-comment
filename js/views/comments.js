@@ -17,11 +17,11 @@ var Comments = React.createClass({
     return getStateFromStore();
   },
 
-  commentDidMount: function() {
+  componentDidMount: function() {
     CommentStore.addChangeListener(this.onChange);
   },
 
-  commentWillUnmount: function() {
+  componentWillUnmount: function() {
     CommentStore.removeChangeListener(this.onChange);
   },
 
